@@ -1,0 +1,104 @@
+.SubmitDocContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 95vh;
+    gap:30px;
+}
+
+.SubmitDocInner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.SubmitDocFields{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 40%;
+}
+
+.SubmitbuttonContainer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.SubmitDocButton{
+    margin: 20px 0px 0px 0px;
+    background-color: #23242c;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px 0px 10px 0px;
+    cursor: pointer;
+}
+
+.SubmitDocButton:disabled{
+    background-color: grey;
+}
+
+.SubmitDocAttributeContainer{
+    width: 100%;
+}
+
+.SubmitDocTextField{
+    border-width: 0 0 1px 0;
+}
+
+.SubmitDocTextField:focus{
+    outline: 0;
+}
+
+.AlertsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 0 30px 0;
+    width: 40%;
+}
+
+.AlertsItem{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #FFF380;
+}
+
+.AlertsInner{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.DocumentContainer{
+    padding: 20px;
+    background-color: #23242c;
+    color: white;
+}
+
+.AlertDetails{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+@media screen and (max-width: 767px) {
+    .SubmitDocFields{
+        width: 60%;
+    }
+
+    .SubmitbuttonContainer{
+        width: 60%;
+    }
+
+    .AlertsContainer{
+        width: 60%;
+    }
+}

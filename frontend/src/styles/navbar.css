@@ -1,0 +1,30 @@
+.NavbarContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5vh;
+    background-color: #23242c;
+    color: white;
+}
+
+.NavbarUl{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:30px;
+    list-style-type: none;
+    margin: 0px 0px 0px 20px;
+    padding: 0;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
