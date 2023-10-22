@@ -7,7 +7,7 @@ function Navbar(props) {
             <ul className='NavbarUl'>
                 <li><a href='/' >Create Alert</a></li>
                 <li><a href='/submitDoc'>Submit Document</a></li>
-                <li><a href='/viewAlert'>View Alert</a></li>
+                <li><a href='/viewAlert'>View Alerts</a></li>
             </ul>
         </div>
     );
