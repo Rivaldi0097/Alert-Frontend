@@ -2,7 +2,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Navigate,
 } from "react-router-dom";
 import CreateAlert from "./pages/CreateAlert";
 import ViewAlert from "./pages/ViewAlert";

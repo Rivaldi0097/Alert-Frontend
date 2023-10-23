@@ -17,14 +17,6 @@
     padding: 0;
 }
 
-a:link{
-    text-decoration: none;
-}
-
-a:visited{
-    color: white;
-}
-
-a:hover{
-    text-decoration: underline;
+.NavbarLinks{
+    cursor: pointer;
 }
