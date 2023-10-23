@@ -20,9 +20,6 @@ function CreateAlert(props) {
     const [addedAttributes, setAddedAttributes] = useState([]);
 
     const submit = async () => {
-        console.log("added keyword list: ", addedKeywords)
-        console.log("added location list: ", addedLocation)
-        console.log("added attributes list: ", addedAttributes)
 
         setDisable(true)
         setResult('none')
@@ -36,7 +33,6 @@ function CreateAlert(props) {
                 attributes: addedAttributes
             })
 
-            console.log(res)
             setDisable(false)
             setResult('success')
 
@@ -68,7 +64,7 @@ function CreateAlert(props) {
                 </div>
 
                 <div>
-                    <label>Types of alerts:</label>
+                    <label>Types of alerts (Choose one or more):</label>
                 </div>
                 
 

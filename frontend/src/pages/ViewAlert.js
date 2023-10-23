@@ -13,7 +13,6 @@ function ViewAlert(props) {
             try {
                 
                 const res = await axios.get(`${process.env.REACT_APP_HOSTNAME}/api/alert/`);
-                console.log(res)
                 setAlertList(res.data)
 
             } catch (error) {

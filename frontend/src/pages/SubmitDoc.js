@@ -31,8 +31,6 @@ function SubmitDoc(props) {
             const data = res.data;
 
             if(data.alertTriggered){
-                console.log(data.information.alerts)
-                console.log(data.information.document[0])
                 setAlerts(data.information.alerts)
                 setDocument(data.information.document[0])
             }

@@ -75,6 +75,10 @@
     cursor: pointer;
 }
 
+.SubmitButton:disabled{
+    background-color: grey;
+}
+
 .AttributeContainer{
     display: flex;
     flex-direction: column;
@@ -116,7 +120,7 @@
     border: 0px;
     border-radius: 10px;
     padding: 10px 0px 10px 0px;
-    width: 50%;
+    width: 10vw;
     cursor: pointer;
 }
 
@@ -126,7 +130,7 @@
     border: 0px;
     border-radius: 10px;
     padding: 10px 0px 10px 0px;
-    width: 10%;
+    width: 10vw;
     cursor: pointer;
 }
 
@@ -144,4 +148,14 @@
 
 .FailedMessage{
     color: red;
+}
+
+@media screen and (max-width: 767px) {
+    .AddKeyLocButton{
+        width: 20vw;
+    }
+
+    .AddButton{
+        width: 20vw;
+    }
 }
