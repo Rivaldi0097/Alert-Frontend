@@ -139,6 +139,11 @@ function CreateAlert(props) {
                 >
                     Submit
                 </button>
+                
+                <br/>
+                <br/>
+
+                <p>I stopped the backend from running. Do contact me if you need me to run it again.</p>
 
                 {result === 'success'?
                     <p className='SuccessMessage'>Alert has been successfully created</p>
